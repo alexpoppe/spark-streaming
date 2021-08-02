@@ -10,3 +10,7 @@ The algorithm will open a google chrome window, log in with the account I made f
 
 The second algorithm is "streaming.py". This will use spark streaming to retrive the information from the text file and print it to the console.
 The algorithm will wait for 5 seconds before checking if any files in the data-directaory have been changed.
+The streaming algorithm should be run at the same time as the scrape algorithm in a seperate terminal with the following command:
+```
+python streaming.py
+```
